@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserItemTest renders correctly 1`] = `
+<div
+  className="card"
+>
+  <img
+    alt="Profile Avatar"
+    className="photo"
+    src="<img src='pic.jpg' alt='Profile' />"
+  />
+  <div
+    className="card-body"
+  >
+    <h5
+      className="card-title"
+    >
+      A Title
+       
+      firstname
+       
+      lastname
+    </h5>
+    <h4>
+      23
+    </h4>
+    <button
+      className="btn btn-primary"
+      data-target="#id1"
+      data-toggle="modal"
+      type="button"
+    >
+      Contact
+    </button>
+    <div
+      aria-hidden="true"
+      aria-labelledby="exampleModalLabel"
+      className="modal fade"
+      id="id1"
+      role="dialog"
+    >
+      <div
+        className="modal-dialog"
+        role="document"
+      >
+        <div
+          className="modal-content"
+        >
+          <div
+            className="modal-header"
+          >
+            <h5
+              className="modal-title"
+              id="exampleModalLabel"
+            >
+              Contact 
+              A Title
+               
+              firstname
+               
+              lastname
+            </h5>
+            <button
+              aria-label="Close"
+              className="close"
+              data-dismiss="modal"
+              type="button"
+            >
+              <span
+                aria-hidden="true"
+              >
+                ×
+              </span>
+            </button>
+          </div>
+          <div
+            className="modal-body"
+          >
+            <div>
+              Phone: 
+              415-555-5555
+               
+            </div>
+            <div>
+              Cell: 
+              415-514-4155
+               
+            </div>
+            <div>
+              Email: 
+              test@example.com
+               
+            </div>
+          </div>
+          <div
+            className="modal-footer"
+          >
+            <button
+              className="btn btn-secondary"
+              data-dismiss="modal"
+              type="button"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
